@@ -1,0 +1,439 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc.fancymodloader",
+    "module": "loader",
+    "version": "4.0.43",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.5"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.5"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.5"
+          }
+        },
+        {
+          "group": "net.neoforged",
+          "module": "mergetool",
+          "version": {
+            "requires": "2.0.0"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "mergetool",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "api"
+            }
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.22.1"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.8.0-beta4"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.1-jre"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-artifact",
+          "version": {
+            "requires": "3.8.5"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.12.0"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "core",
+          "version": {
+            "requires": "3.8.0"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.8.0"
+          }
+        },
+        {
+          "group": "cpw.mods",
+          "module": "modlauncher",
+          "version": {
+            "requires": "11.0.3"
+          }
+        },
+        {
+          "group": "net.neoforged",
+          "module": "coremods",
+          "version": {
+            "requires": "7.0.3"
+          }
+        },
+        {
+          "group": "com.mojang",
+          "module": "logging",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "net.neoforged",
+          "module": "JarJarSelector",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "net.neoforged",
+          "module": "JarJarMetadata",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "net.neoforged",
+          "module": "bus",
+          "version": {
+            "requires": "8.0.5"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "com.mohistmc.fancymodloader",
+          "module": "junit-fml",
+          "version": {
+            "requires": "4.0.43"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "loader-4.0.43.jar",
+          "url": "loader-4.0.43.jar",
+          "size": 505933,
+          "sha512": "80800bec494ae6c85f5b2324a404abe8dbf3d1c6cfd2267bfd68df4be81a89d5db18e5e30eec259c2547c33962e3780e3b4de8d9d9cf6e571985d27c4937648a",
+          "sha256": "ae1dd9e6a8993fb9ec1754ffccf257e53f19577d81b3ced21ea3d0de8b4a579a",
+          "sha1": "428ceeff84ee632da71bd7305cab7c42b6321dbf",
+          "md5": "4313fd989524218b445cfe3ab38695ec"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.neoforged",
+          "module": "JarJarFileSystems",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "requires": "5.0.4"
+          }
+        },
+        {
+          "group": "cpw.mods",
+          "module": "securejarhandler",
+          "version": {
+            "requires": "3.0.7"
+          }
+        },
+        {
+          "group": "net.neoforged",
+          "module": "accesstransformers",
+          "version": {
+            "requires": "10.0.1"
+          }
+        },
+        {
+          "group": "net.neoforged.accesstransformers",
+          "module": "at-modlauncher",
+          "version": {
+            "requires": "10.0.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "modlauncher"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "sponge-mixin",
+          "version": {
+            "requires": "0.14.0+mixin.0.8.6"
+          }
+        },
+        {
+          "group": "net.minecrell",
+          "module": "terminalconsoleappender",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.22.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.5"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.5"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.5"
+          }
+        },
+        {
+          "group": "net.neoforged",
+          "module": "mergetool",
+          "version": {
+            "requires": "2.0.0"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "mergetool",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "api"
+            }
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.22.1"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.8.0-beta4"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.1-jre"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-artifact",
+          "version": {
+            "requires": "3.8.5"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.12.0"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "core",
+          "version": {
+            "requires": "3.8.0"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.8.0"
+          }
+        },
+        {
+          "group": "cpw.mods",
+          "module": "modlauncher",
+          "version": {
+            "requires": "11.0.3"
+          }
+        },
+        {
+          "group": "net.neoforged",
+          "module": "coremods",
+          "version": {
+            "requires": "7.0.3"
+          }
+        },
+        {
+          "group": "com.mojang",
+          "module": "logging",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "net.neoforged",
+          "module": "JarJarSelector",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "net.neoforged",
+          "module": "JarJarMetadata",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "net.neoforged",
+          "module": "bus",
+          "version": {
+            "requires": "8.0.5"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "com.mohistmc.fancymodloader",
+          "module": "junit-fml",
+          "version": {
+            "requires": "4.0.43"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "loader-4.0.43.jar",
+          "url": "loader-4.0.43.jar",
+          "size": 505933,
+          "sha512": "80800bec494ae6c85f5b2324a404abe8dbf3d1c6cfd2267bfd68df4be81a89d5db18e5e30eec259c2547c33962e3780e3b4de8d9d9cf6e571985d27c4937648a",
+          "sha256": "ae1dd9e6a8993fb9ec1754ffccf257e53f19577d81b3ced21ea3d0de8b4a579a",
+          "sha1": "428ceeff84ee632da71bd7305cab7c42b6321dbf",
+          "md5": "4313fd989524218b445cfe3ab38695ec"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "loader-4.0.43-sources.jar",
+          "url": "loader-4.0.43-sources.jar",
+          "size": 277083,
+          "sha512": "1d841ed07c934fee456f90a7d808a0611cda4f5482aba064c94a3d189aab2e388e93664fc9814d6f0309c2373b504b0ea7a2cb33c8159cf96c3d812949ce77b2",
+          "sha256": "e984fc50ee5415db40ad9d21c59a758abb947517c5c1e5399c56a9205fc1249f",
+          "sha1": "e372d462dfb5217a7d3cee824e4e9c5222b2a764",
+          "md5": "8c04703bdc28d8783473ff09cbca5c18"
+        }
+      ]
+    }
+  ]
+}
