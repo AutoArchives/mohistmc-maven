@@ -27,11 +27,11 @@
         {
           "name": "youerdev-1.21.1.jar",
           "url": "youerdev-1.21.1.jar",
-          "size": 101427195,
-          "sha512": "fa21476aa4483e038d24eabba394ade80f32cab5fc3a7794f75c62ce5282f7dd6a72e66becc3186824fa5da5665532b520393fc98d1deeb0ee3b7377bcf1cedf",
-          "sha256": "cca64afa548cb163cc97d2854b1d0b81f83654a63f760f068158f9069325bb02",
-          "sha1": "d69a42c1958d084bcf991d46c8c4efe39c95ae75",
-          "md5": "8bd2c0547055567a17a0a7f71a81e357"
+          "size": 101343560,
+          "sha512": "e1d497b24e4f643da2e4aa2eccde84cdd9d7c6bbfcc6cd8d9205ce83d406b081bcfac9179ab8853e9e16148e4a019099011c302ee4827d8fd161989304edca01",
+          "sha256": "2cabb149bcd03b9f4ac38258b0d8329b8291ecdc20a740ec1345f95bca7ac8ce",
+          "sha1": "53739e36539ae75ccb68fc9564f366ffcb6aad09",
+          "md5": "93c01c16d6ec86d28475501ee44f720c"
         }
       ]
     },
@@ -48,11 +48,11 @@
         {
           "name": "youerdev-1.21.1.jar",
           "url": "youerdev-1.21.1.jar",
-          "size": 101427195,
-          "sha512": "fa21476aa4483e038d24eabba394ade80f32cab5fc3a7794f75c62ce5282f7dd6a72e66becc3186824fa5da5665532b520393fc98d1deeb0ee3b7377bcf1cedf",
-          "sha256": "cca64afa548cb163cc97d2854b1d0b81f83654a63f760f068158f9069325bb02",
-          "sha1": "d69a42c1958d084bcf991d46c8c4efe39c95ae75",
-          "md5": "8bd2c0547055567a17a0a7f71a81e357"
+          "size": 101343560,
+          "sha512": "e1d497b24e4f643da2e4aa2eccde84cdd9d7c6bbfcc6cd8d9205ce83d406b081bcfac9179ab8853e9e16148e4a019099011c302ee4827d8fd161989304edca01",
+          "sha256": "2cabb149bcd03b9f4ac38258b0d8329b8291ecdc20a740ec1345f95bca7ac8ce",
+          "sha1": "53739e36539ae75ccb68fc9564f366ffcb6aad09",
+          "md5": "93c01c16d6ec86d28475501ee44f720c"
         }
       ]
     },
@@ -68,11 +68,11 @@
         {
           "name": "youerdev-1.21.1.jar",
           "url": "youerdev-1.21.1.jar",
-          "size": 101427195,
-          "sha512": "fa21476aa4483e038d24eabba394ade80f32cab5fc3a7794f75c62ce5282f7dd6a72e66becc3186824fa5da5665532b520393fc98d1deeb0ee3b7377bcf1cedf",
-          "sha256": "cca64afa548cb163cc97d2854b1d0b81f83654a63f760f068158f9069325bb02",
-          "sha1": "d69a42c1958d084bcf991d46c8c4efe39c95ae75",
-          "md5": "8bd2c0547055567a17a0a7f71a81e357"
+          "size": 101343560,
+          "sha512": "e1d497b24e4f643da2e4aa2eccde84cdd9d7c6bbfcc6cd8d9205ce83d406b081bcfac9179ab8853e9e16148e4a019099011c302ee4827d8fd161989304edca01",
+          "sha256": "2cabb149bcd03b9f4ac38258b0d8329b8291ecdc20a740ec1345f95bca7ac8ce",
+          "sha1": "53739e36539ae75ccb68fc9564f366ffcb6aad09",
+          "md5": "93c01c16d6ec86d28475501ee44f720c"
         }
       ]
     }
