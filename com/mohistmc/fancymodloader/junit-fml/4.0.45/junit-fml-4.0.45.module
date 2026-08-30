@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc.fancymodloader",
+    "module": "junit-fml",
+    "version": "4.0.45",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "junit-fml-4.0.45.jar",
+          "url": "junit-fml-4.0.45.jar",
+          "size": 3720,
+          "sha512": "ccafaa894b1884324868211e84c190169a16d16690cd52c5742d825c9e12281f9df218c3d83da4e1c3419291dcdb39c8a249c94e665bff6bf29c5f0204280daa",
+          "sha256": "a4bea3677abe53d9462f73518219b1aa29efea9c5e672c724e69c9f2f7503c4c",
+          "sha1": "a4757e30bdd9d21269c3fc155ccd5beeee15c04f",
+          "md5": "7fc74e461cd74ab3198a0e674e3f50d4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.junit",
+          "module": "junit-bom",
+          "version": {
+            "requires": "5.10.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.junit.platform",
+          "module": "junit-platform-launcher"
+        }
+      ],
+      "files": [
+        {
+          "name": "junit-fml-4.0.45.jar",
+          "url": "junit-fml-4.0.45.jar",
+          "size": 3720,
+          "sha512": "ccafaa894b1884324868211e84c190169a16d16690cd52c5742d825c9e12281f9df218c3d83da4e1c3419291dcdb39c8a249c94e665bff6bf29c5f0204280daa",
+          "sha256": "a4bea3677abe53d9462f73518219b1aa29efea9c5e672c724e69c9f2f7503c4c",
+          "sha1": "a4757e30bdd9d21269c3fc155ccd5beeee15c04f",
+          "md5": "7fc74e461cd74ab3198a0e674e3f50d4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "junit-fml-4.0.45-sources.jar",
+          "url": "junit-fml-4.0.45-sources.jar",
+          "size": 2949,
+          "sha512": "a56e9ec2556ae9bcd5c648fd5f130dd30dd713fd349d3b3dfc8125d4e7de342fcc90efd5d37e99d9211f84a1fc463467838b913fc121525ba1b58f761d6eeda8",
+          "sha256": "3bf427f62dda65e0f8dfcb974ee4a3c9cb18fd3c3bff3d45f19378350824b04e",
+          "sha1": "051d384b69c2cd676f6209d75d19b139131897e5",
+          "md5": "e097e4cc6cffc499537825750067e93e"
+        }
+      ]
+    }
+  ]
+}
